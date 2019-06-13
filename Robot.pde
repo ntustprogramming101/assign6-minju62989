@@ -33,7 +33,11 @@ class Robot extends Enemy{
 
   void update(){
     x += speed;
-    if(x >= width) x = -w;
+    if(x < 0 || x > width - w){
+      speed *= -1;
+    }
+     
+    
   }
 
   Robot(float x, float y){
