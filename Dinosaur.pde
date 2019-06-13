@@ -1,6 +1,6 @@
 class Dinosaur extends Enemy{
 	// Requirement #4: Complete Dinosaur Class
-  float currentSpeed = 2f;
+  float currentSpeed = f;
 	final float TRIGGERED_SPEED_MULTIPLIER = 2;
 
 	// HINT: Player Detection in update()
